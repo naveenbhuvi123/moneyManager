@@ -1,0 +1,67 @@
+/* Write your CSS here */
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 45px;
+  width: 340px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ecfccb;
+  font-family: roboto;
+  border-color: #cbd5e1;
+}
+.logo-container-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 45px;
+  width: 340px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #cffafe;
+  font-family: roboto;
+  border-color: #06b6d4;
+}
+
+.logo-container-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 340px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ede9fe;
+  font-family: roboto;
+  border-color: #7e858e;
+}
+
+.details {
+  font-size: 16px;
+  color: #06b6d4;
+}
+.amount {
+  font-size: 19px;
+  font-weight: 500;
+  color: #1e293b;
+}

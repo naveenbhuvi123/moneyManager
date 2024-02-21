@@ -1,0 +1,24 @@
+/* Write your CSS here */
+
+.item-list {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  width: 500px;
+  border-width: 1px;
+  flex-direction: row;
+  align-items: center;
+}
+.delete-logo {
+  width: 20px;
+  background-color: transparent;
+  height: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.title-name {
+  font-size: 14px;
+}
